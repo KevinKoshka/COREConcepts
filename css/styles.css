@@ -1,0 +1,116 @@
+body {
+    background-color: #e5e5e5;
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+footer {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.bloc {
+    background-color: #fff;
+    border: 1px solid #d5d5d6;
+    margin: 10px;
+    padding: 12px;
+}
+
+.title h1 {
+    font-family: 'Asap', sans-serif;
+    font-weight: 600;
+    font-size: 5em;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.title h1 span {
+    font-weight: 100;
+}
+
+.title h3 {
+    text-align: center;
+    font-family: 'Asap', sans-serif;
+    font-size: 3em;
+    font-weight: 400;
+    color: #949494;
+    margin: 10px 0;
+}
+
+.content-inside {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content-table {
+    flex-grow: 1;
+}
+
+.content-table ul {
+    font-size: 1.3em;
+    font-family: 'Droid Serif', serif;
+}
+
+.content-table ul li {
+    list-style-type: none;
+    margin-bottom: 7.5px;
+}
+
+a {
+    text-decoration: none;
+    color: #000caf;
+    transition: all ease-in-out 0.5s;
+}
+
+a:hover {
+    color: #b7bbf5;
+}
+
+a:visited {
+    color: #378e87;
+}
+
+.content-table .fa {
+    margin-right: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Asap', sans-serif;
+    font-size: 2.5em;
+}
+
+.foot-text {
+    text-align: center;
+    font-family: 'Asap', sans-serif;
+    font-weight: 300;
+    margin: 10px 0;
+    color: #949494;
+}
+
+.article {
+    padding: 0 35px;
+}
+
+.article p {
+    font-family: 'Droid Serif', serif;
+    font-size: 1.1em;
+}
+.article h3 {
+    text-align: center;
+    font-family: 'Asap', sans-serif;
+    font-size: 2.5em;
+    text-decoration: underline;
+}
+
+.article h4 {
+    font-family: 'Asap', sans-serif;
+    font-size: 1.8em;
+}
