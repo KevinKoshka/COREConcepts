@@ -99,7 +99,7 @@ module.exports = (width) => {
                 <p>If it was in a folder at <b>./some-library</b>, then <b>require('./some-library')</b> would attempt to load <b>'./some-library/lib/some-library.js'</b>. if there is no <b>package.json</b> file present, then NODE will attempt to load an <b>index.js</b> or <b>index.node</b> file.</p>
 
                 <h4>Loading from node_modules Folders</h4>
-                <p></p>
+                <p>If the module identifier passed to <b>require()</b> is not a core module and doesn't have the mentioned prefixes, NODE will stand in the parent directory of the current module and will look for <b>node_modules</b> folder. There it will look for the corresponding file.</p>
 
             </div>
 
